@@ -1,0 +1,20 @@
+package com.procedimientos.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@ToString
+public class DocumentoResponseProductDto {
+	private Long idDocument;
+	private String nameDocument;
+	private String typeDocument;
+}
